@@ -1,0 +1,136 @@
+html,body,#app,.main{
+	width: 100%;
+	height: 100%;
+}
+
+.heads img{
+	height: 0.8rem;
+	
+}
+.heads{
+	height: 0.8rem;
+	/*background: red;*/
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}
+
+.heads ol{
+	display: flex;
+	font-size: 0.3rem;
+	margin-left: 1.5rem;
+	line-height: 0.8rem;
+	font-weight: bold;
+}
+.heads ol li{
+	width: 0.8rem;
+}
+.banner{
+	height: 0.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #ccc;
+	background: rgb(246,246,246);
+}
+.banner input{
+	width: 88%;
+	height: 0.5rem;
+	border-top: 1px solid #ccc;
+	border-radius: 4px;
+}
+.section{
+	display: flex;
+}
+.section .left{
+	flex: 1;
+	height: 9rem;
+	overflow: scroll;
+}
+.left li{
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-size: 0.23rem;
+}
+.section .right{
+	flex: 3;
+	height:9rem;
+	overflow: scroll;
+	background: rgb(246,246,246);
+	font-size: 0.23rem;
+
+}
+.section .right span{
+	position: absolute;
+	right: 0.2rem;
+	top: 0.2rem;
+}
+.bg{
+	background: rgb(246,246,246);
+	border-left: 2px solid  rgb(72,183,251);
+}
+
+.right img{
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.right li{
+	display: flex;
+	align-items: center;
+	height: 1rem;
+	border-bottom: 1px solid #ccc;
+		position: relative;
+}
+
+.foot{
+		height: 1rem;
+		border-top: 1px solid #ccc;
+	}
+	.foot ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.foot ul li{
+		flex: 1;
+		text-align: center;
+		margin-top: 0.15rem;
+	}
+	
+	.foot ul li img{
+		width: 0.4rem;
+	}
+	.section ul li{
+		height:1rem;
+		line-height: 1rem;
+		border-bottom: 1px solid #ccc;
+		text-indent: 0.5rem;
+	}
+	.sections{
+		flex: 1;
+		overflow: scroll;
+	}
+	.sections ul{
+		height:1rem;
+		line-height: 1rem;
+		border-bottom: 1px solid #ccc;
+		text-indent: 0.5rem;
+	}
+	.sections ul li{
+		height:1rem;
+		line-height: 1rem;
+		border-bottom: 1px solid #ccc;
+		text-indent: 0.5rem;
+	}
+	.main{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.section{
+		flex: 1;
+	}
